@@ -1,0 +1,67 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  background-image: url("/img/bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+/* Section Styles */
+section {
+  padding: 3rem;
+  text-align: center;
+}
+section h1 {
+  color: #fff;
+}
+section p{
+  color: #fff;
+}
+
+/* Project Styles */
+.project {
+  margin: 2rem;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
